@@ -1,0 +1,13 @@
+<section>
+  <app-search-input (search)="onSearchInput($event)"></app-search-input>
+  
+</section>
+<section class="results">
+      @for(housingLocation of filteredLocationList; track housingLocation.id) {
+        <app-housing-location 
+          [housingLocation]="housingLocation"
+          [isFavorite]="isFavorite(housingLocation.id)"
+          (favoriteToggled)="toggleFavorite($event)">
+        </app-housing-location>
+      }
+    </section>

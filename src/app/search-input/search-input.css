@@ -1,0 +1,27 @@
+.search-form {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 16px;
+}
+.search-btn {
+  min-width: 130px;
+  padding: 0 24px;
+  height: 54px;
+  font-size: 14px;
+  background-color: #1976d2 !important;
+  color: #fff !important;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 2px 4px rgba(25, 118, 210, 0.10);
+  transition: background 0.2s;
+}
+.search-btn:hover {
+  background-color: #1565c0 ;
+}
+.search-btn mat-icon {
+  font-size: 24px;
+  color: #fff ;
+}

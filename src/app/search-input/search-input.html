@@ -1,0 +1,30 @@
+
+
+<div class="content">
+  <form [formGroup]="searchForm" class="search-form">
+  <mat-form-field class="custom-input" appearance="outline">
+    <mat-label>Destino</mat-label>
+  <input matInput formControlName="destiny" placeholder="Ciudad o destino" (input)="onSearch()" />
+  </mat-form-field>
+
+  <mat-form-field appearance="outline">
+    <mat-label>Fecha de entrada</mat-label>
+    <input matInput [matDatepicker]="checkInPicker" formControlName="checkIn" placeholder="Entrada" />
+    <mat-datepicker-toggle matSuffix [for]="checkInPicker"></mat-datepicker-toggle>
+    <mat-datepicker #checkInPicker></mat-datepicker>
+  </mat-form-field>
+
+  <mat-form-field appearance="outline">
+    <mat-label>Fecha de salida</mat-label>
+    <input matInput [matDatepicker]="checkOutPicker" formControlName="checkOut" placeholder="Salida" />
+    <mat-datepicker-toggle matSuffix [for]="checkOutPicker"></mat-datepicker-toggle>
+    <mat-datepicker #checkOutPicker></mat-datepicker>
+  </mat-form-field>
+
+  <button mat-button color="primary" class="search-btn" type="button" aria-label="Buscar" (click)="onSearch()">
+    <mat-icon>search</mat-icon>
+    Buscar
+  </button>
+</form>
+
+</div>

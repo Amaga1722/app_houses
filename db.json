@@ -1,0 +1,258 @@
+{
+  "locations": [
+     {
+       "id": 0,
+       "name": "Acme Fresh Start Housing",
+       "city": "Chicago",
+       "state": "IL",
+       "photo": "https://angular.dev/assets/images/tutorials/common/bernard-hermant-CLKGGwIBTaY-unsplash.jpg",
+       "reservations": [
+         { "from": "2025-11-10", "to": "2025-11-15" },
+         { "from": "2025-12-01", "to": "2025-12-05" }
+       ],
+       "wifi": true,
+       "laundry": true,
+       "availableFrom": "2025-11-01",
+       "availableTo": "2025-12-31"
+     },
+     {
+       "id": 10,
+       "name": "Windy City Lofts",
+       "city": "Chicago",
+       "state": "IL",
+       "photo": "https://angular.dev/assets/images/tutorials/common/ian-macdonald-W8z6aiwfi1E-unsplash.jpg",
+       "reservations": [
+         { "from": "2025-11-20", "to": "2025-11-25" }
+       ],
+       "wifi": false,
+       "laundry": true,
+       "availableFrom": "2025-11-10",
+       "availableTo": "2025-12-20"
+     },
+     {
+       "id": 11,
+       "name": "Lakefront Family Homes",
+       "city": "Chicago",
+       "state": "IL",
+       "photo": "https://angular.dev/assets/images/tutorials/common/krzysztof-hepner-978RAXoXnH4-unsplash.jpg",
+       "reservations": [
+         { "from": "2025-12-10", "to": "2025-12-15" }
+       ],
+       "wifi": true,
+       "laundry": false,
+       "availableFrom": "2025-11-15",
+       "availableTo": "2025-12-31"
+     },
+     {
+       "id": 1,
+       "name": "A113 Transitional Housing",
+       "city": "Santa Monica",
+       "state": "CA",
+       "photo": "https://angular.dev/assets/images/tutorials/common/brandon-griggs-wR11KBaB86U-unsplash.jpg",
+       "reservations": [
+         { "from": "2025-10-20", "to": "2025-10-25" }
+       ],
+       "wifi": false,
+       "laundry": true,
+       "availableFrom": "2025-10-15",
+       "availableTo": "2025-11-30"
+     },
+     {
+       "id": 12,
+       "name": "Santa Monica Beach House",
+       "city": "Santa Monica",
+       "state": "CA",
+       "photo": "https://angular.dev/assets/images/tutorials/common/saru-robert-9rP3mxf8qWI-unsplash.jpg",
+       "reservations": [
+         { "from": "2025-11-01", "to": "2025-11-10" }
+       ],
+       "wifi": true,
+       "laundry": false,
+       "availableFrom": "2025-10-25",
+       "availableTo": "2025-12-10"
+     },
+     {
+       "id": 13,
+       "name": "Pacific View Apartments",
+       "city": "Santa Monica",
+       "state": "CA",
+       "photo": "https://angular.dev/assets/images/tutorials/common/r-architecture-GGupkreKwxA-unsplash.jpg",
+       "reservations": [
+         { "from": "2025-12-15", "to": "2025-12-20" }
+       ],
+       "wifi": true,
+       "laundry": true,
+       "availableFrom": "2025-11-15",
+       "availableTo": "2025-12-25"
+     },
+     {
+       "id": 2,
+       "name": "Warm Beds Housing Support",
+       "city": "Juneau",
+       "state": "AK",
+       "photo": "https://angular.dev/assets/images/tutorials/common/i-do-nothing-but-love-lAyXdl1-Wmc-unsplash.jpg",
+       "reservations": [
+         { "from": "2025-12-10", "to": "2025-12-20" }
+       ],
+       "wifi": false,
+       "laundry": false,
+       "availableFrom": "2025-12-01",
+       "availableTo": "2026-01-15"
+     },
+     {
+       "id": 14,
+       "name": "Juneau Cozy Cabins",
+       "city": "Juneau",
+       "state": "AK",
+       "photo": "https://angular.dev/assets/images/tutorials/common/bernard-hermant-CLKGGwIBTaY-unsplash.jpg",
+       "reservations": [
+         { "from": "2025-12-22", "to": "2025-12-28" }
+       ],
+       "wifi": true,
+       "laundry": false,
+       "availableFrom": "2025-12-15",
+       "availableTo": "2026-01-10"
+     },
+     {
+       "id": 15,
+       "name": "Northern Lights Homes",
+       "city": "Juneau",
+       "state": "AK",
+       "photo": "https://angular.dev/assets/images/tutorials/common/ian-macdonald-W8z6aiwfi1E-unsplash.jpg",
+       "reservations": [
+         { "from": "2025-12-05", "to": "2025-12-09" }
+       ],
+       "wifi": false,
+       "laundry": true,
+       "availableFrom": "2025-12-01",
+       "availableTo": "2026-01-15"
+     },
+     {
+       "id": 3,
+       "name": "Homesteady Housing",
+       "city": "Chicago",
+       "state": "IL",
+       "photo": "https://angular.dev/assets/images/tutorials/common/ian-macdonald-W8z6aiwfi1E-unsplash.jpg",
+       "reservations": [
+         { "from": "2025-11-15", "to": "2025-11-18" }
+       ],
+       "wifi": true,
+       "laundry": false,
+       "availableFrom": "2025-11-10",
+       "availableTo": "2025-12-20"
+     },
+     {
+       "id": 4,
+       "name": "Happy Homes Group",
+       "city": "Gary",
+       "state": "IN",
+       "photo": "https://angular.dev/assets/images/tutorials/common/krzysztof-hepner-978RAXoXnH4-unsplash.jpg",
+       "reservations": [
+         { "from": "2025-10-25", "to": "2025-10-30" }
+       ],
+       "wifi": true,
+       "laundry": false,
+       "availableFrom": "2025-10-20",
+       "availableTo": "2025-11-25"
+     },
+     {
+       "id": 5,
+       "name": "Hopeful Apartment Group",
+       "city": "Oakland",
+       "state": "CA",
+       "photo": "https://angular.dev/assets/images/tutorials/common/r-architecture-JvQ0Q5IkeMM-unsplash.jpg",
+       "reservations": [
+         { "from": "2025-11-10", "to": "2025-11-12" },
+         { "from": "2025-12-01", "to": "2025-12-03" }
+       ],
+       "wifi": true,
+       "laundry": true,
+       "availableFrom": "2025-11-05",
+       "availableTo": "2025-12-15"
+     },
+     {
+       "id": 6,
+       "name": "Seriously Safe Towns",
+       "city": "Oakland",
+       "state": "CA",
+       "photo": "https://angular.dev/assets/images/tutorials/common/phil-hearing-IYfp2Ixe9nM-unsplash.jpg",
+       "reservations": [
+         { "from": "2025-11-01", "to": "2025-11-05" }
+       ],
+       "wifi": true,
+       "laundry": true,
+       "availableFrom": "2025-10-25",
+       "availableTo": "2025-12-10"
+     },
+     {
+       "id": 7,
+       "name": "Hopeful Housing Solutions",
+       "city": "Oakland",
+       "state": "CA",
+       "photo": "https://angular.dev/assets/images/tutorials/common/r-architecture-GGupkreKwxA-unsplash.jpg",
+       "reservations": [
+         { "from": "2025-12-10", "to": "2025-12-15" }
+       ],
+       "wifi": true,
+       "laundry": true,
+       "availableFrom": "2025-11-15",
+       "availableTo": "2025-12-25"
+     },
+     {
+       "id": 8,
+       "name": "Seriously Safe Towns",
+       "city": "Oakland",
+       "state": "CA",
+       "photo": "https://angular.dev/assets/images/tutorials/common/saru-robert-9rP3mxf8qWI-unsplash.jpg",
+       "reservations": [
+         { "from": "2025-10-15", "to": "2025-10-20" }
+       ],
+       "wifi": false,
+       "laundry": false,
+       "availableFrom": "2025-10-10",
+       "availableTo": "2025-11-20"
+     },
+     {
+       "id": 9,
+       "name": "Capital Safe Towns",
+       "city": "Portland",
+       "state": "OR",
+       "photo": "https://angular.dev/assets/images/tutorials/common/webaliser-_TPTXZd9mOo-unsplash.jpg",
+       "reservations": [
+         { "from": "2025-11-20", "to": "2025-11-25" }
+       ],
+       "wifi": true,
+       "laundry": true,
+       "availableFrom": "2025-11-01",
+       "availableTo": "2025-12-31"
+     },
+     {
+       "id": 16,
+       "name": "Portland Urban Flats",
+       "city": "Portland",
+       "state": "OR",
+       "photo": "https://angular.dev/assets/images/tutorials/common/brandon-griggs-wR11KBaB86U-unsplash.jpg",
+       "reservations": [
+         { "from": "2025-12-01", "to": "2025-12-10" }
+       ],
+       "wifi": false,
+       "laundry": true,
+       "availableFrom": "2025-11-20",
+       "availableTo": "2025-12-31"
+     },
+     {
+       "id": 17,
+       "name": "Rose City Residences",
+       "city": "Portland",
+       "state": "OR",
+       "photo": "https://angular.dev/assets/images/tutorials/common/krzysztof-hepner-978RAXoXnH4-unsplash.jpg",
+       "reservations": [
+         { "from": "2025-11-10", "to": "2025-11-15" }
+       ],
+       "wifi": true,
+       "laundry": false,
+       "availableFrom": "2025-11-01",
+       "availableTo": "2025-12-31"
+     }
+   ]
+ }

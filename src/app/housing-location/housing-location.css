@@ -1,0 +1,169 @@
+.listing {
+  background: var(--accent-color);
+  border-radius: 30px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.listing-heading {
+  color: var(--primary-color);
+  margin: 0;
+  padding: 10px 20px 0 20px;
+}
+
+.favorite-btn {
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid #e2e8f0;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.favorite-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  border-color: #cbd5e0;
+}
+
+.favorite-btn.is-favorite {
+  background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+  border-color: #ff6b6b;
+  color: white;
+}
+
+.favorite-btn.is-favorite:hover {
+  background: linear-gradient(135deg, #ff5252, #e53e3e);
+  transform: scale(1.15);
+}
+
+.heart-icon {
+  width: 20px;
+  height: 20px;
+  transition: all 0.2s ease;
+}
+
+.favorite-btn:active .heart-icon {
+  transform: scale(0.9);
+}
+
+.favorite-btn.is-favorite .heart-icon {
+  animation: heartbeat 0.6s ease-in-out;
+}
+
+@keyframes heartbeat {
+  0% { transform: scale(1); }
+  25% { transform: scale(1.2); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.favorite-tooltip {
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease;
+  pointer-events: none;
+}
+
+.favorite-btn:hover .favorite-tooltip {
+  opacity: 1;
+  visibility: visible;
+  top: -40px;
+}
+
+.listing-photo {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 30px 30px 0 0;
+}
+
+.listing-location {
+  padding: 10px 20px 0 20px;
+}
+
+.listing-location::before {
+  content: url("/assets/location-pin.svg") / "";
+}
+
+.available {
+  padding: 5px 20px;
+  color: green;
+  font-weight: bold;
+}
+
+.unavailable {
+  padding: 5px 20px;
+  color: red;
+  font-weight: bold;
+}
+
+/* 🧮 COMPUTED SIGNALS - Disponibilidad */
+.high-availability {
+  padding: 5px 20px;
+  color: #22c55e;
+  font-weight: bold;
+  background: rgba(34, 197, 94, 0.1);
+  border-radius: 4px;
+  margin: 5px 20px;
+}
+
+.available {
+  padding: 5px 20px;
+  color: green;
+  font-weight: bold;
+}
+
+.unavailable {
+  padding: 5px 20px;
+  color: red;
+  font-weight: bold;
+}
+
+/* 🎨 COMPUTED SIGNALS - Features badges */
+.features-badges {
+  display: flex;
+  gap: 8px;
+  padding: 0 20px 10px 20px;
+  flex-wrap: wrap;
+}
+
+.feature-badge {
+  background: rgba(96, 93, 200, 0.1);
+  color: var(--primary-color);
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid rgba(96, 93, 200, 0.2);
+}
+
+section.listing a {
+  padding-left: 20px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+section.listing a::after {
+  content: "\203A";
+  margin-left: 5px;
+}
